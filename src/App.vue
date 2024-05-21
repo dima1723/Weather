@@ -118,4 +118,57 @@ export default {
 .wrapper button:hover {
   transform: scale(1.1) translateY(-5px);
 }
+
+@media (max-width: 1500px) { 
+  .wrapper{
+    width: 900px;
+    height: 500px;
+  }
+}
+@media (max-width: 1200px) { 
+  .wrapper{
+    width: 800px;
+    height: 450px;
+  }
+}
+@media (max-width: 900px) { 
+  .wrapper{
+    width: 600px;
+    height: 400px;  
+  }
+}
+@media (max-width: 768px) { 
+  .wrapper{
+    width: 400px;
+    height: 300px;
+    padding: 0px;
+    font-size: 13px;
+  }
+  .wrapper button {
+    width: 150px;
+  }
+}
+@media (max-width: 480px) { 
+  .wrapper{
+    width: 350px;
+    height: 400px;
+    padding: 3px;
+  }
+  .wrapper button {
+    margin-top: 5px;
+    width: 200px;
+  }
+}
+@media (max-width: 320px) { 
+  .wrapper{
+    width: 210px;
+    height: 450px;
+    padding: 3px;
+  }
+  .wrapper button {
+    margin-top: 5px;
+    margin-left: 1px;
+    width: 170px;
+  }
+}
 </style>
